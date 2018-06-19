@@ -1,0 +1,6 @@
+camera:
+  name: RASP CAM 2, Raspberry Pi - Kamera, 8MP, v2.1
+  resolution: 
+  picture: 3280 x 2464
+  videoHD: 1080p @ 30 fps
+  videoLD: 720p @ 60 fps
