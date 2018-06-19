@@ -1,4 +1,4 @@
-#include "NanoCam_node.hpp"
+#include "NanoCamNode.hpp"
 
 int main(int argc, char **argv)
 {
@@ -6,7 +6,7 @@ int main(int argc, char **argv)
     "nano_cam");
     ros::NodeHandle nodeHandle("~");
     ros::Rate loopRate(10);
-    cameraControl = CameraControl(&nodeHandle);
+    CameraControl::CameraControl cameraControl(nodeHandle);
     unsigned int count = 0;
     cameraControl.sendPictures();
     return 0;

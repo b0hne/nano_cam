@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/b0hne/catkin_ws/devel/include",
+                    "/opt/ros/kinetic/include",
+                    "/home/b0hne/catkin_ws/src/beginner_tutorials/include",
+                    "/home/b0hne/catkin_ws/src/nano_cam/include",
+                    "/home/b0hne/catkin_ws/src/common_msgs/sensor_msgs/include",
+                    "/usr/include"
+                ]
+            },
+            "includePath": [
+                "/home/b0hne/catkin_ws/devel/include",
+                "/opt/ros/kinetic/include",
+                "/usr/local/include/raspicam",
+                "/home/b0hne/catkin_ws/src/beginner_tutorials/include",
+                "/home/b0hne/catkin_ws/src/nano_cam/include",
+                "/home/b0hne/catkin_ws/src/common_msgs/sensor_msgs/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

@@ -4,6 +4,7 @@
 class CameraControl
 {
   private:
+  ros::NodeHandle *nodeHandle;
     raspicam::RaspiCam_Cv raspicam;
 
   public:
